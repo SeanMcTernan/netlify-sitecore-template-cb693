@@ -1,5 +1,5 @@
 //And example of a Netlify function where you simply console.log('Hello World')
-export default (req: Request, context: Context) => {
+export default () => {
     console.log('Hello World');
     return
 };
